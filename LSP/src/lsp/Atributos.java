@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lsp;
+
+/**
+ *
+ * @author Gabriela
+ */
+public class Atributos {
+
+    protected double altura, largura;
+
+    public void setAltura(double Altura) {
+        altura = Altura;
+    }
+
+    public void setLargura(double Largura) {
+        largura = Largura;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public double getLargura() {
+        return largura;
+    }
+
+}
